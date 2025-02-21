@@ -22,13 +22,11 @@
     brave
     direnv 
     tree
-    lazygit
     jq
     bat
     python311
     awscli2
     zellij
-    git-extras
     ripgrep
     htop
     btop
@@ -37,11 +35,22 @@
     vlc
     nodejs_18
     prettierd 
+    docker-compose
+    httpie
+
+    # Git
+    lazygit
+    gitu
+    git-extras
 
     # Android development 
     android-studio
     flutter
     jdk17
+
+    # dev  
+    nil
+    nixfmt-rfc-style
 
     # # Adds the 'hello' command to your environment. It prints a friendly
     # # "Hello, world!" when run.
@@ -125,10 +134,10 @@
 
   programs.kitty = {
     enable = true;
-    extraConfig = "include ~/.config/kitty/mocha.conf";
+    extraConfig = "include ~/.config/kitty/kangawa-dragon.conf";
     settings = {
-      font_family = "FiraCode nerd font";
-      font_size = 14;
+      font_family = "Iosevka Nerd Font";
+      font_size = 15;
       bold_font = "auto";
       italic_font = "auto";
       bold_italic_font = "auto";

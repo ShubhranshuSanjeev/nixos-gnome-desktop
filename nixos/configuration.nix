@@ -104,6 +104,8 @@
     gnome.gnome-tweaks
     xclip
     mesa
+    quickemu
+    qemu
   ];
 
   programs.git.enable = true;
@@ -115,7 +117,7 @@
   };
 
   fonts.packages = with pkgs; [
-    (nerdfonts.override { fonts = [ "FiraCode" "Iosevka" "JetBrainsMono" ]; })
+    (nerdfonts.override { fonts = [ "FiraCode" "Iosevka" "JetBrainsMono" "Lekton" "Monoid" "ProggyClean" "ZedMono" ]; })
   ];
 
   home-manager.users.trividha = import /home/trividha/.config/home-manager/home.nix;
